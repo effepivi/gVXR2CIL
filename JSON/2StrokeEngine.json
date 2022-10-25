@@ -19,11 +19,11 @@
         "NumberOfPixels": [900, 900],
         "Spacing": [0.5, 0.5, "mm"]
     },
-    
+
     "Samples": [
         {
             "Label": "BottomRod",
-            "Path": "input_data/2StrokeEngine/BottomRod.stl",
+            "Path": "../input_data/2StrokeEngine/BottomRod.stl",
             "Unit": "mm",
             "Material": ["Mixture", [
                 14, 0.121,
@@ -38,7 +38,7 @@
         },
         {
             "Label": "ConnectingRod",
-            "Path": "input_data/2StrokeEngine/ConnectingRod.stl",
+            "Path": "../input_data/2StrokeEngine/ConnectingRod.stl",
             "Unit": "mm",
             "Material": ["Mixture", [
                 14, 0.121,
@@ -53,7 +53,7 @@
         },
         {
             "Label": "CrankShaft",
-            "Path": "input_data/2StrokeEngine/CrankShaft.stl",
+            "Path": "../input_data/2StrokeEngine/CrankShaft.stl",
             "Unit": "mm",
             "Material": ["Mixture", [
                 14, 0.121,
@@ -68,7 +68,7 @@
         },
         {
             "Label": "Piston",
-            "Path": "input_data/2StrokeEngine/Piston.stl",
+            "Path": "../input_data/2StrokeEngine/Piston.stl",
             "Unit": "mm",
             "Material": ["Mixture", [
                     13, 0.01,
@@ -79,7 +79,7 @@
         },
         {
             "Label": "WristPin",
-            "Path": "input_data/2StrokeEngine/WristPin.stl",
+            "Path": "../input_data/2StrokeEngine/WristPin.stl",
             "Unit": "mm",
             "Material": ["Mixture", [
                     6, 0.0065,
@@ -97,7 +97,7 @@
         "FinalAngle": 360,
         "IncludeFinalAngle": false,
         "CenterOfRotation": [0,0,0],
-        "OutFolder": "output_data/2StrokeEngine/scan/projections",
-        "GifPath": "output_data/2StrokeEngine/scan/preview.gif"
+        "OutFolder": "../output_data/2StrokeEngine/scan/projections",
+        "GifPath": "../output_data/2StrokeEngine/scan/preview.gif"
     }
 }

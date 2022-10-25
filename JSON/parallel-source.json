@@ -23,7 +23,7 @@
     "Samples": [
         {
             "Label": "sphere0",
-            "Path": "input_data/spheres/spheres-0.stl",
+            "Path": "../input_data/spheres/spheres-0.stl",
             "Unit": "mm",
             "Material": ["Element", "Fe"],
             "Transform": [
@@ -32,7 +32,7 @@
         },
         {
             "Label": "sphere1",
-            "Path": "input_data/spheres/spheres-1.stl",
+            "Path": "../input_data/spheres/spheres-1.stl",
             "Unit": "mm",
             "Material": ["Element", "Ti"],
             "Transform": [
@@ -41,7 +41,7 @@
         },
         {
             "Label": "sphere2",
-            "Path": "input_data/spheres/spheres-2.stl",
+            "Path": "../input_data/spheres/spheres-2.stl",
             "Unit": "mm",
             "Material": ["Element", "C"],
             "Transform": [
@@ -50,7 +50,7 @@
         },
         {
             "Label": "sphere3",
-            "Path": "input_data/spheres/spheres-3.stl",
+            "Path": "../input_data/spheres/spheres-3.stl",
             "Unit": "mm",
             "Material": ["Element", "C"],
             "Transform": [
@@ -59,7 +59,7 @@
         },
         {
             "Label": "sphere4",
-            "Path": "input_data/spheres/spheres-4.stl",
+            "Path": "../input_data/spheres/spheres-4.stl",
             "Unit": "mm",
             "Material": ["Element", "Al"],
             "Transform": [
@@ -71,7 +71,7 @@
         "NumberOfProjections":360,
         "FinalAngle": 180,
         "CenterOfRotation": [0,0,0],
-        "OutFolder": "output_data/Parallel/scan",
-        "GifPath": "output_data/Parallel/scan/preview.gif"
+        "OutFolder": "../output_data/Parallel/scan",
+        "GifPath": "../output_data/Parallel/scan/preview.gif"
     }
 }
