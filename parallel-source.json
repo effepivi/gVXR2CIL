@@ -1,0 +1,77 @@
+{
+    "WindowSize": [800, 450],
+
+    "Source": {
+        "Position": [0, -10, 0, "cm"],
+        "Shape": "Parallel",
+        "Beam": [
+            {
+                "Energy": 150,
+                "Unit": "keV",
+                "PhotonCount": 1000
+            }
+        ]
+    },
+
+    "Detector": {
+        "Position": [0, 10, 0, "cm"],
+        "UpVector": [0, 0, -1],
+        "NumberOfPixels": [300, 320],
+        "Spacing": [0.3, 0.3, "mm"]
+    },
+
+    "Samples": [
+        {
+            "Label": "sphere0",
+            "Path": "input_data/spheres/spheres-0.stl",
+            "Unit": "mm",
+            "Material": ["Element", "Fe"],
+            "Transform": [
+                ["Rotation", 90, 1, 0, 0]
+            ]
+        },
+        {
+            "Label": "sphere1",
+            "Path": "input_data/spheres/spheres-1.stl",
+            "Unit": "mm",
+            "Material": ["Element", "Ti"],
+            "Transform": [
+                ["Rotation", 90, 1, 0, 0]
+            ]
+        },
+        {
+            "Label": "sphere2",
+            "Path": "input_data/spheres/spheres-2.stl",
+            "Unit": "mm",
+            "Material": ["Element", "C"],
+            "Transform": [
+                ["Rotation", 90, 1, 0, 0]
+            ]
+        },
+        {
+            "Label": "sphere3",
+            "Path": "input_data/spheres/spheres-3.stl",
+            "Unit": "mm",
+            "Material": ["Element", "C"],
+            "Transform": [
+                ["Rotation", 90, 1, 0, 0]
+            ]
+        },
+        {
+            "Label": "sphere4",
+            "Path": "input_data/spheres/spheres-4.stl",
+            "Unit": "mm",
+            "Material": ["Element", "Al"],
+            "Transform": [
+                ["Rotation", 90, 1, 0, 0]
+            ]
+        }
+    ],
+    "Scan": {
+        "NumberOfProjections":360,
+        "FinalAngle": 180,
+        "CenterOfRotation": [0,0,0],
+        "OutFolder": "output_data/Parallel/scan",
+        "GifPath": "output_data/Parallel/scan/preview.gif"
+    }
+}
