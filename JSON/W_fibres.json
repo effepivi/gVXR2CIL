@@ -1,0 +1,78 @@
+{
+    "WindowSize": [800, 450],
+
+    "Source": {
+        "Position": [0, -144.92, 0, "mm"],
+        "Shape": "Parallel",
+        "Beam": [
+            {
+                "Energy": 33,
+                "Unit": "keV",
+                "PhotonCount": 97
+            },
+            {
+                "Energy": 66,
+                "Unit": "keV",
+                "PhotonCount": 2
+            },
+            {
+                "Energy": 99,
+                "Unit": "keV",
+                "PhotonCount": 1
+            }
+        ]
+    },
+
+    "Detector": {
+        "Position": [0, 80, 0, "mm"],
+        "UpVector": [0, 0, -1],
+        "NumberOfPixels": [1217, 320],
+        "Spacing": [1.9, 1.9, "um"]
+    },
+
+    "Samples": [
+        {
+            "Label": "W",
+            "Path": "../input_data/W_fibres/final_W_cores.stl",
+            "Unit": "mm",
+            "Material": ["Element", "W"],
+
+            "Transform": [
+                ["Rotation", 90, 1, 0, 0]
+            ]
+        },
+        {
+            "Label": "SiC",
+            "Path": "../input_data/W_fibres/final_SiC_fibres.stl",
+            "Unit": "mm",
+            "Material": [
+                "Compound", "SiC"
+            ],
+            "Density": 3.2,
+
+            "Transform": [
+                ["Rotation", 90, 1, 0, 0]
+            ]
+        },
+        {
+            "Label": "TiAlV",
+            "Path": "../input_data/W_fibres/final_Ti90Al6V4_matrix.stl",
+            "Unit": "mm",
+            "Material": [
+                "Mixture", "Ti90Al6V4"
+            ],
+            "Density": 4.42,
+
+            "Transform": [
+                ["Rotation", 90, 1, 0, 0]
+            ]
+        }
+    ],
+    "Scan": {
+        "NumberOfProjections":360,
+        "FinalAngle": 180,
+        "CenterOfRotation": [0,0,0],
+        "OutFolder": "../output_data/W_fibres/projections",
+        "GifPath": "../output_data/W_fibres/preview.gif"
+    }
+}
