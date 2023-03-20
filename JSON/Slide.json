@@ -80,8 +80,8 @@
     ],
 
     "Scan": {
-        "NumberOfProjections": 91,
-        "FinalAngle": 180,
+        "NumberOfProjections": 181,
+        "FinalAngle": 360,
         "IncludeFinalAngle": false,
         "CenterOfRotation": [0,0,0],
         "Flat-Field Correction": true,
