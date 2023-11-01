@@ -40,8 +40,8 @@ dependencies:
     #- jupyterlab
     #- pandas
     #- scikit-learn
-    #- imageio
-    #- SimpleITK
+    - imageio
+    - SimpleITK
     #- k3d
     #- numpy-stl
     #- gputil
